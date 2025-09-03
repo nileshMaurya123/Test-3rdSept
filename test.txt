@@ -1,0 +1,48 @@
+
+Objects :-
+
+1 - Replace keys using a mapping object (rename multiple keys).
+Given: user = { fn: 'Asha', ln: 'Sharma' }, map = { fn: 'firstName', ln: 'lastName' }
+Goal: Return { firstName: 'Asha', lastName: 'Sharma' }
+
+2 - Compute cart total from an array of item objects (sum price * qty).
+Given: cart = [{ price: 50, qty: 2 }, { price: 30, qty: 1 }]
+Goal: Return 130
+
+3 - Validate an object against a simple schema object of expected types (string, number, boolean).
+Given: obj = { name: 'Neo', age: 30, active: true }, schema = { name: 'string', age: 'number', active:
+'boolean' }
+Goal: Return true
+
+4 -Convert an array of [key, value] pairs into an object (like Object.fromEntries).
+Given: pairs = [['id', 7], ['name', 'Neo']]
+Goal: Return { id: 7, name: 'Neo' }
+
+5 - Convert an object to a Map and back to an object.
+Given: obj = { a: 1, b: 2 }
+Goal: Create Map([['a',1],['b',2]]) then back to { a: 1, b: 2 }
+
+
+Arrays :-
+
+1 - Build a frequency map (object) counting how many times each element appears.
+Given: arr = ['a', 'b', 'a', 'c', 'b', 'a']
+Goal: Return {'a': 3, 'b': 2, 'c': 1}
+
+
+2 - Find the most frequent element in an array; if tie, return any one.
+Given: arr = [2, 3, 2, 4, 4, 4, 3]
+Goal: Return 4
+
+3 - Union of two arrays (unique values, order by first appearance).
+Given: arr1 = [1, 2, 2], arr2 = [2, 3]
+Goal: Return [1, 2, 3]
+
+
+4 - Count occurrences of a given number in the array.
+Given: arr = [3, 5, 3, 2, 3, 1], target = 3
+Goal: Return 3
+
+5 - Find common numbers (intersection, unique) between two arrays.
+Given: arr1 = [3, 5, 6], arr2 = [4, 5, 7]
+Goal: Return [5]
